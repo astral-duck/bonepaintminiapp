@@ -15,15 +15,15 @@ header h1 {
     font-size: 1.5em;
     margin-bottom: 20px;
     text-align: center;
-    color: #b19cd9; /* Purple for branding */
+    color: #b19cd9; /* Purple for branding, matching bonepaint.com */
 }
 
-a {
+.header-link {
     color: #b19cd9;
     text-decoration: none;
 }
 
-a:hover {
+.header-link:hover {
     text-decoration: underline;
 }
 
@@ -34,27 +34,30 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.button {
-    background-color: #4a1d6f; /* Dark purple for buttons */
+.bonepaint-button {
+    background-color: #4a1d6f; /* Dark purple from bonepaint.com buttons */
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
     width: 100%;
     transition: background-color 0.3s;
+    border: 1px solid #b19cd9; /* Purple border for consistency */
+    font-weight: bold;
 }
 
-.button:hover {
-    background-color: #6a2c9f; /* Lighter purple on hover */
+.bonepaint-button:hover {
+    background-color: #6a2c9f; /* Lighter purple on hover, matching bonepaint.com */
 }
 
 .feedback {
-    background-color: #2d2d2d;
-    padding: 10px;
+    background-color: #2d2d2d; /* Darker gray for feedback, matching bonepaint.com */
+    padding: 12px;
     border-radius: 5px;
     text-align: center;
     font-size: 0.9em;
     color: #e0e0e0;
+    border: 1px solid #4a1d6f; /* Purple border for consistency */
 }
